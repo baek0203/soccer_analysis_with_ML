@@ -19,14 +19,14 @@ Visualization and analysis tools : mplsoccer
 
 Supporting materials and workflows inspired by Hudi-based data pipelines
 
-### Machine Learning Techniques
+Machine Learning Techniques
 
 - Logistic Regression
 - Tree-based models (e.g., Random Forest)
 
 Key Features
 
-Shot location, Body part, Shot angle and distance, Assist type, Game context (open play, set piece, etc.)
+- Shot location, Body part, Shot angle and distance, Assist type, Game context (open play, set piece, etc.)
 
 ## Objective (What?)
 
