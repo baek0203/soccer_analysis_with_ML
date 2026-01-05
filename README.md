@@ -6,7 +6,7 @@ to extract insights from soccer match data.
 I started it from a simple curiosity:
 **what kind of data problems do I genuinely enjoy working on?**
 
----
+
 
 ## 🎯 Project Goal
 
@@ -17,7 +17,7 @@ The goal of this project is to:
 - Apply basic machine learning models
 - Understand how quantitative features relate to match outcomes or performance
 
----
+
 
 ## 📊 Dataset & Analysis Scope
 
@@ -28,7 +28,7 @@ The notebook includes:
 - Visualization of key variables (distributions, correlations, trends)
 - Identification of meaningful patterns in the data
 
----
+
 
 ## 🛠️ Implementation
 
@@ -58,7 +58,6 @@ Inside the notebook, I:
    - What it fails to explain
    - Why data alone may not fully represent game context
 
----
 
 ## 📈 Tools & Libraries
 
@@ -69,8 +68,4 @@ Inside the notebook, I:
 - Scikit-learn
 - Jupyter Notebook
 
----
-
-## 📌 One-Line Summary
-
-*A self-directed machine learning project exploring soccer data through analysis and visualization.*
+A self-directed machine learning project exploring soccer data through analysis and visualization.*
