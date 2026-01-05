@@ -1,54 +1,76 @@
-# Soccer Analysis with Machine Learning
+# Soccer Data Analysis with Machine Learning
 
-This project applies classical machine learning techniques to soccer event data to predict goal-scoring probability, extending beyond traditional Expected Goals (xG) models.
+This project explores how machine learning and visualization techniques can be used
+to extract insights from soccer match data.
 
-## Motivation (Why?)
+I started it from a simple curiosity:
+**what kind of data problems do I genuinely enjoy working on?**
 
-In recent years, sports science and data-driven decision-making have become increasingly important in professional soccer.
-I wanted to explore how machine learning can be applied to real soccer event data to better understand the factors that influence goal-scoring opportunities.
+---
 
-Rather than relying solely on xG, this project investigates multiple contextual and technical variables that contribute to scoring outcomes.
+## 🎯 Project Goal
 
-## Methodology (How?)
+The goal of this project is to:
 
-This project focuses on traditional machine learning approaches, emphasizing interpretability and feature-based analysis rather than deep learning.
+- Analyze soccer-related datasets using Python & Jupyter
+- Perform exploratory data analysis (EDA) with visualization
+- Apply basic machine learning models
+- Understand how quantitative features relate to match outcomes or performance
 
-Data Sources : StatsBomb open event data
+---
 
-Visualization and analysis tools : mplsoccer
+## 📊 Dataset & Analysis Scope
 
-Supporting materials and workflows inspired by Hudi-based data pipelines
+The notebook includes:
 
-Machine Learning Techniques
+- Loading and cleaning soccer match / player data
+- Feature exploration using statistical summaries
+- Visualization of key variables (distributions, correlations, trends)
+- Identification of meaningful patterns in the data
 
-- Logistic Regression
-- Tree-based models (e.g., Random Forest)
+---
 
-Key Features
+## 🛠️ Implementation
 
-- Shot location, Body part, Shot angle and distance, Assist type, Game context (open play, set piece, etc.)
+All analysis is contained in the Jupyter Notebook:
 
-## Objective (What?)
+### `ML_analysis_with_visualation.ipynb`
 
-The main objective of this project is to:
+Inside the notebook, I:
 
-- Predict the probability of a goal using multiple soccer event features, not limited to traditional xG assumptions.
-By incorporating richer contextual variables, the model aims to provide:
-- A more nuanced evaluation of shot quality
-- Better insight into why certain chances result in goals
-- An interpretable framework for soccer analytics
+1. **Preprocessed the data**
+   - Handled missing values
+   - Selected relevant numerical features
+   - Converted raw data into analysis-ready form
 
-## Results & Insights
+2. **Explored the data visually**
+   - Used plots to understand distributions and relationships
+   - Compared features that may affect performance or outcomes
 
-The model demonstrates that goal probability is influenced by a combination of spatial, technical, and contextual factors
-Several non-xG features significantly improve predictive performance
-Classical ML models provide clear feature importance, making them suitable for tactical analysis
+3. **Applied machine learning models**
+   - Trained simple ML models for prediction or classification
+   - Evaluated model behavior and limitations
+   - Focused more on interpretation than optimization
+   - Logistic regression, XGBoost, etc
 
-## Limitations
+4. **Reflected on results**
+   - What the model captures well
+   - What it fails to explain
+   - Why data alone may not fully represent game context
 
-limitations in data collecting as a student. good quality of data is only processed only Business price. 
-Temporal dependencies between events are not explicitly modeled
-Performance may vary across leagues and competitions
+---
 
+## 📈 Tools & Libraries
 
-This project demonstrates that machine learning can enrich soccer analytics beyond xG by integrating multiple event-based variables, while maintaining interpretability and practical relevance.
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## 📌 One-Line Summary
+
+*A self-directed machine learning project exploring soccer data through analysis and visualization.*
